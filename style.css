@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.logout-btn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+}
+
+.index-btn {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#999;
+}
+
+
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #c1dfff;
+    border-color: #62aeff;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #002042;
+    border-color: #003064;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #bb2d3b;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.centered-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropdown-menu {
+    display: none;
+    margin-top: 0;
+    animation-duration: 0.3s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation-name: fadeIn;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* Efecto de sombreado al pasar el ratón */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    background-color: #bbbbbb;
+    padding-bottom: 30px;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.img-avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;    
+
+}
+.img-top{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;    
+
+}
+.img-completa{
+    max-width: 100%;
+    height: 500px;
+    object-fit: contain;
+
+}
